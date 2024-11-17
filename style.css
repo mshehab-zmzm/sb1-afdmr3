@@ -1,0 +1,22 @@
+:root {
+      --bs-primary: #00b298; /* Your custom primary color */
+    }
+body {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.display-4 {
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
